@@ -12,6 +12,12 @@
 
 - (UIViewController *)Action_Mine_viewController:(NSDictionary *)params {
     MineViewController *vc = [[MineViewController alloc] init];
+    if (params) {
+        NSString *title = [params objectForKey:@"title"];
+        UIImage *image = [params objectForKey:@"image"];
+        vc.image = image;
+        vc.title = title;
+    }
     return vc;
 }
 

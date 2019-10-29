@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MineViewController : UIViewController
 
+@property (nonatomic,copy) NSString *title;
+@property (nonatomic,strong) UIImage *image;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -18,8 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = NSStringFromClass([self class]);
+    self.title = self.title ? self.title : NSStringFromClass([self class]);
     self.view.backgroundColor = [UIColor greenColor];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:self.image];
+    imageView.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:imageView];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
