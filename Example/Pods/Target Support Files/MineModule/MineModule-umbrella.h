@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "LoginViewController.h"
+#import "MineViewController.h"
+#import "Target_MineModule.h"
 
 FOUNDATION_EXPORT double MineModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char MineModuleVersionString[];

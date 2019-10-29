@@ -8,15 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0BB190EE7487B8DC35A29290895E5A76 /* Pods-MineModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A55BD878C996192F9A9CBD1763DFB92 /* Pods-MineModule_Tests-dummy.m */; };
+		0C335B24E1AB3AE0207B2C06A196EEF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1117466C11641EAF3897EAD37023A55D /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ECB8E14C679FD2EFDB976CF7FAD1EC /* LoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B732E25E865398623EF1B316F76FDB /* Target_MineModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B96676D45A7C76578141B9181435F439 /* Target_MineModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25612F368B97C224C2DD11A86CEEC169 /* MineModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EB33CF37839C3C31E2FC3BFF021BA5 /* MineModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31F289A8B51420A92613118E808316CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3571BA2E959C9694CC349F0DB098BCE3 /* Pods-MineModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D916D0708F9D624D92DDDCAC22804025 /* Pods-MineModule_Example-dummy.m */; };
 		46C7BC0B141F5A750D557518BD90B1C9 /* Pods-MineModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3509C5BB44EBC57D55B7A1D2AD74FA92 /* Pods-MineModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49172C6BCF23E4D64B9CE91A2EA55043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4C8BBAEC27D438311B32F335EDF1D8E7 /* MineModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4A06B7CF51F1CF1C86C1CABDE49D62 /* MineModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7747D10A4B2B82DBA4A8A0AF24F001C4 /* MineModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CAA5E90A388861CAA95B43B8A74601 /* MineModule-dummy.m */; };
+		74D1D11EFD593A51A42BA169183BD25A /* MineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4607988AD72A27FD81C7ED9C5353CA6F /* MineViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A544C2206EFE40F663E5290A38BF223D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EFC1B7392E729E12707DD9785B7F2D /* MineViewController.m */; };
 		A70E07E0811B6533C5DCBCB7EB8619C2 /* Pods-MineModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DF29CEFB15CFDCD8652AB3E0475CAD /* Pods-MineModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEDFC5B3E934FF5BB37316BB70E77BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DEA2F78560B93694A947364D84D50BA9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 569E6302FF649C46CAA6E7A814E98E2A /* ReplaceMe.m */; };
+		B606CB7352E21B55BA6B114176FEB086 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA51C881ECB8661F3BF1CED3B3716D2 /* LoginViewController.m */; };
+		DF0B64BD954CD3A9B9B726840B2A279C /* MineModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B6EF4EFE4014FA0F69307B701D0BF5 /* MineModule-dummy.m */; };
+		F8B9FA28B42F3B05BADECAA044BB2229 /* Target_MineModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A1576E071CF19EE358374338941B1A /* Target_MineModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,38 +42,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00872BF308D6ECFFF609E7EF813BBC24 /* MineModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MineModule.modulemap; sourceTree = "<group>"; };
-		052F0C8A5BA864F33088EE863792B73D /* MineModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineModule-prefix.pch"; sourceTree = "<group>"; };
+		03EC84D2F4A79D41966A51EEEF521756 /* MineModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineModule-prefix.pch"; sourceTree = "<group>"; };
 		07DF29CEFB15CFDCD8652AB3E0475CAD /* Pods-MineModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MineModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		0C0A37AF233DB8306484A8A4955269D2 /* MineModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MineModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		10FB690B2BAE2D900A082340D184263B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		148A470B4976F71993EDD5F06AF7BB75 /* Pods-MineModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MineModule_Example.modulemap"; sourceTree = "<group>"; };
+		18119821093C75F07BF126FF98AD77D2 /* MineModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MineModule.modulemap; sourceTree = "<group>"; };
 		20E99A3D66602A3B1A9EBF1726A8BC67 /* Pods-MineModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2C4A06B7CF51F1CF1C86C1CABDE49D62 /* MineModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineModule-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3509C5BB44EBC57D55B7A1D2AD74FA92 /* Pods-MineModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MineModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		40ACA0BDD337701503C30459A2CB1F73 /* MineModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MineModule.framework; path = MineModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40CAA5E90A388861CAA95B43B8A74601 /* MineModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MineModule-dummy.m"; sourceTree = "<group>"; };
-		569E6302FF649C46CAA6E7A814E98E2A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MineModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		56CBCC470976A66F31DB10C6CCB4B2AF /* MineModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MineModule-Info.plist"; sourceTree = "<group>"; };
+		4607988AD72A27FD81C7ED9C5353CA6F /* MineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = MineModule/Classes/MineViewController.h; sourceTree = "<group>"; };
+		5BF00AEC7252DE9886CF7EA82C753410 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5FA24F43D8A8DE98F05095FBFB9A2366 /* Pods-MineModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MineModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		61B0E0C30BCF3602AC73F2A4A6FC0AF6 /* Pods-MineModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MineModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		61C32FCF52CC6315C9B5759802799696 /* Pods_MineModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MineModule_Tests.framework; path = "Pods-MineModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C5341EC762D0223DE77C455F7B03C0 /* Pods-MineModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6F438DA0EA886A308384C1BC3AED9716 /* Pods-MineModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D2BA912A25741C957F24F56C1B4E881 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74ECB8E14C679FD2EFDB976CF7FAD1EC /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = MineModule/Classes/LoginViewController.h; sourceTree = "<group>"; };
+		7CF9DD4CFE584B3DDFF58C52CAAC783F /* MineModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineModule.xcconfig; sourceTree = "<group>"; };
+		8EA51C881ECB8661F3BF1CED3B3716D2 /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = MineModule/Classes/LoginViewController.m; sourceTree = "<group>"; };
 		92E141D3DCE79415AA10BBD38B2AA44E /* Pods-MineModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MineModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9A55BD878C996192F9A9CBD1763DFB92 /* Pods-MineModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MineModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A212F56E11D438D01C5E1DA100A7F42D /* MineModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MineModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB0082F51B56C376A9F3D37CA6BCCE1B /* MineModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MineModule-Info.plist"; sourceTree = "<group>"; };
+		B96676D45A7C76578141B9181435F439 /* Target_MineModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_MineModule.h; sourceTree = "<group>"; };
+		B9B6EF4EFE4014FA0F69307B701D0BF5 /* MineModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MineModule-dummy.m"; sourceTree = "<group>"; };
+		C2A1576E071CF19EE358374338941B1A /* Target_MineModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_MineModule.m; sourceTree = "<group>"; };
 		C81BE1974C6B17FBFBC316DA27EC1FEA /* Pods_MineModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MineModule_Example.framework; path = "Pods-MineModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86E9FE1B512CE7DD05C8EB25A45129C /* Pods-MineModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CAE8406E272BD13115B01E0D907FFA6F /* Pods-MineModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D66DA5C1CC11716CB277B9801DD11A77 /* MineModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineModule.xcconfig; sourceTree = "<group>"; };
 		D916D0708F9D624D92DDDCAC22804025 /* Pods-MineModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MineModule_Example-dummy.m"; sourceTree = "<group>"; };
+		E2EFC1B7392E729E12707DD9785B7F2D /* MineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = MineModule/Classes/MineViewController.m; sourceTree = "<group>"; };
+		E5EB33CF37839C3C31E2FC3BFF021BA5 /* MineModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineModule-umbrella.h"; sourceTree = "<group>"; };
 		E85FCF18557942932AC6005DE21DBA92 /* Pods-MineModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MineModule_Tests.modulemap"; sourceTree = "<group>"; };
 		E8F2E01158FBDE0D3A64A2FE901ACDFE /* Pods-MineModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		E95F8884B880EB83A0E968EBA4B16E7D /* Pods-MineModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineModule_Example-Info.plist"; sourceTree = "<group>"; };
 		F09D3F82D254493D20229E510E9AD64D /* Pods-MineModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0A9DB9BAF16943B0E11EA66AA5AB679 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +98,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1037E5C7752AA6D0864746F4C4663E42 /* Frameworks */ = {
+		FFE4E53F315CABD63962726BCE4DE065 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDFC5B3E934FF5BB37316BB70E77BC0 /* Foundation.framework in Frameworks */,
+				0C335B24E1AB3AE0207B2C06A196EEF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +125,28 @@
 			path = "Target Support Files/Pods-MineModule_Tests";
 			sourceTree = "<group>";
 		};
+		212B7BF61F7A15709B911FA2FDB76BBC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F69358B54B0307CBF624A7711A115 /* MineModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F93D79303FE81A992C08221655403E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18119821093C75F07BF126FF98AD77D2 /* MineModule.modulemap */,
+				7CF9DD4CFE584B3DDFF58C52CAAC783F /* MineModule.xcconfig */,
+				B9B6EF4EFE4014FA0F69307B701D0BF5 /* MineModule-dummy.m */,
+				AB0082F51B56C376A9F3D37CA6BCCE1B /* MineModule-Info.plist */,
+				03EC84D2F4A79D41966A51EEEF521756 /* MineModule-prefix.pch */,
+				E5EB33CF37839C3C31E2FC3BFF021BA5 /* MineModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MineModule";
+			sourceTree = "<group>";
+		};
 		545222BE28147DE1DB422E5E5438CB9E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,26 +156,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5AE2AA2848A6A1AFADF7B7A791DE5199 /* Development Pods */ = {
+		75EC96FA83691BAC358927CBFA49D628 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C5AFBBC953AC4E196EFB164C0DE87E33 /* MineModule */,
+				5BF00AEC7252DE9886CF7EA82C753410 /* LICENSE */,
+				A212F56E11D438D01C5E1DA100A7F42D /* MineModule.podspec */,
+				F0A9DB9BAF16943B0E11EA66AA5AB679 /* README.md */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		62FA972BF2484186207DFB5C1080A68D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				00872BF308D6ECFFF609E7EF813BBC24 /* MineModule.modulemap */,
-				D66DA5C1CC11716CB277B9801DD11A77 /* MineModule.xcconfig */,
-				40CAA5E90A388861CAA95B43B8A74601 /* MineModule-dummy.m */,
-				56CBCC470976A66F31DB10C6CCB4B2AF /* MineModule-Info.plist */,
-				052F0C8A5BA864F33088EE863792B73D /* MineModule-prefix.pch */,
-				2C4A06B7CF51F1CF1C86C1CABDE49D62 /* MineModule-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MineModule";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		99A4ED2712FF4C3E47A3A7DA8AFD0FB8 /* Products */ = {
@@ -156,6 +176,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A1E066C25F51A8D932D6DB0E3065D675 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				B96676D45A7C76578141B9181435F439 /* Target_MineModule.h */,
+				C2A1576E071CF19EE358374338941B1A /* Target_MineModule.m */,
+			);
+			name = Targets;
+			path = MineModule/Classes/Targets;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,12 +194,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C5AFBBC953AC4E196EFB164C0DE87E33 /* MineModule */ = {
+		CB6F69358B54B0307CBF624A7711A115 /* MineModule */ = {
 			isa = PBXGroup;
 			children = (
-				569E6302FF649C46CAA6E7A814E98E2A /* ReplaceMe.m */,
-				F0F57BF5A989B76B743F85DD97C75DA2 /* Pod */,
-				62FA972BF2484186207DFB5C1080A68D /* Support Files */,
+				74ECB8E14C679FD2EFDB976CF7FAD1EC /* LoginViewController.h */,
+				8EA51C881ECB8661F3BF1CED3B3716D2 /* LoginViewController.m */,
+				4607988AD72A27FD81C7ED9C5353CA6F /* MineViewController.h */,
+				E2EFC1B7392E729E12707DD9785B7F2D /* MineViewController.m */,
+				75EC96FA83691BAC358927CBFA49D628 /* Pod */,
+				3F93D79303FE81A992C08221655403E1 /* Support Files */,
+				A1E066C25F51A8D932D6DB0E3065D675 /* Targets */,
 			);
 			name = MineModule;
 			path = ../..;
@@ -179,7 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5AE2AA2848A6A1AFADF7B7A791DE5199 /* Development Pods */,
+				212B7BF61F7A15709B911FA2FDB76BBC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				99A4ED2712FF4C3E47A3A7DA8AFD0FB8 /* Products */,
 				545222BE28147DE1DB422E5E5438CB9E /* Targets Support Files */,
@@ -211,27 +245,9 @@
 			path = "Target Support Files/Pods-MineModule_Example";
 			sourceTree = "<group>";
 		};
-		F0F57BF5A989B76B743F85DD97C75DA2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				10FB690B2BAE2D900A082340D184263B /* LICENSE */,
-				0C0A37AF233DB8306484A8A4955269D2 /* MineModule.podspec */,
-				7D2BA912A25741C957F24F56C1B4E881 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14DBAD76C984A9A200820968A2ABF404 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C8BBAEC27D438311B32F335EDF1D8E7 /* MineModule-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F0F6328A6A3BEB6151370CD184E8E8B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +261,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70E07E0811B6533C5DCBCB7EB8619C2 /* Pods-MineModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68CFC42C8B04192559CA366068CB51C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1117466C11641EAF3897EAD37023A55D /* LoginViewController.h in Headers */,
+				25612F368B97C224C2DD11A86CEEC169 /* MineModule-umbrella.h in Headers */,
+				74D1D11EFD593A51A42BA169183BD25A /* MineViewController.h in Headers */,
+				18B732E25E865398623EF1B316F76FDB /* Target_MineModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +299,12 @@
 		};
 		78084D3D002719EFA61A01F954F0A715 /* MineModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D560F0C3E5713DFC6B42C3B5DCACC157 /* Build configuration list for PBXNativeTarget "MineModule" */;
+			buildConfigurationList = ABB27C8A2984B24945493E16304FADED /* Build configuration list for PBXNativeTarget "MineModule" */;
 			buildPhases = (
-				14DBAD76C984A9A200820968A2ABF404 /* Headers */,
-				2598DF69DD0137790EC0294A1A72B09B /* Sources */,
-				1037E5C7752AA6D0864746F4C4663E42 /* Frameworks */,
-				78A40C81012E458CDBFC85A2363B3416 /* Resources */,
+				B68CFC42C8B04192559CA366068CB51C /* Headers */,
+				86DD5EF91ABCD3A08E90BFA6D6C9D792 /* Sources */,
+				FFE4E53F315CABD63962726BCE4DE065 /* Frameworks */,
+				2210CDCBF9CEA42E414BAFC6CF8B07D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A40C81012E458CDBFC85A2363B3416 /* Resources */ = {
+		2210CDCBF9CEA42E414BAFC6CF8B07D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,20 +387,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2598DF69DD0137790EC0294A1A72B09B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7747D10A4B2B82DBA4A8A0AF24F001C4 /* MineModule-dummy.m in Sources */,
-				DEA2F78560B93694A947364D84D50BA9 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		83187F23F4E89FB7FB6F60BEC78D9F14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0BB190EE7487B8DC35A29290895E5A76 /* Pods-MineModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DD5EF91ABCD3A08E90BFA6D6C9D792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B606CB7352E21B55BA6B114176FEB086 /* LoginViewController.m in Sources */,
+				DF0B64BD954CD3A9B9B726840B2A279C /* MineModule-dummy.m in Sources */,
+				A544C2206EFE40F663E5290A38BF223D /* MineViewController.m in Sources */,
+				F8B9FA28B42F3B05BADECAA044BB2229 /* Target_MineModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +432,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07F938F7762A717D726DDE1E165B3EFF /* Debug */ = {
+		0A3307012374AB4DDB2ED28B8436225D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D66DA5C1CC11716CB277B9801DD11A77 /* MineModule.xcconfig */;
+			baseConfigurationReference = 7CF9DD4CFE584B3DDFF58C52CAAC783F /* MineModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -433,38 +462,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		10FC822B44D2C79FCA0DE6DDA5C949DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D66DA5C1CC11716CB277B9801DD11A77 /* MineModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MineModule/MineModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MineModule/MineModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MineModule/MineModule.modulemap";
-				PRODUCT_MODULE_NAME = MineModule;
-				PRODUCT_NAME = MineModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		29859F49A343F58F207C1EBEBBD9EE4F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -724,6 +721,38 @@
 			};
 			name = Debug;
 		};
+		F12A846BE09DE5EFA517CD489EEB69A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF9DD4CFE584B3DDFF58C52CAAC783F /* MineModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MineModule/MineModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MineModule/MineModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MineModule/MineModule.modulemap";
+				PRODUCT_MODULE_NAME = MineModule;
+				PRODUCT_NAME = MineModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -754,11 +783,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D560F0C3E5713DFC6B42C3B5DCACC157 /* Build configuration list for PBXNativeTarget "MineModule" */ = {
+		ABB27C8A2984B24945493E16304FADED /* Build configuration list for PBXNativeTarget "MineModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07F938F7762A717D726DDE1E165B3EFF /* Debug */,
-				10FC822B44D2C79FCA0DE6DDA5C949DC /* Release */,
+				0A3307012374AB4DDB2ED28B8436225D /* Debug */,
+				F12A846BE09DE5EFA517CD489EEB69A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
